@@ -1,5 +1,6 @@
 from django import forms
 from produtos.models import Categoria, Produto
+from django.forms import ModelForm
 
 
 class CategoriaForm(forms.ModelForm):
